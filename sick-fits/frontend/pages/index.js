@@ -3,12 +3,8 @@ import Link from 'next/link';
 const Home = props => (
     <div>
         <p>
-            Hey!
+            Home
         </p>
-        {/* <a href="/sell">Sell</a> */}
-        <Link href="/sell">
-            <a>Sell</a>
-        </Link>
     </div>
 )                       
 

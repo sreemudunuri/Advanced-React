@@ -1,9 +1,10 @@
+import Link from 'next/link'
+
 const Sell = props => (
     <div>
         <p>
             Sell!
         </p>
-        <a href="/">Home</a>
     </div>
 )
 
