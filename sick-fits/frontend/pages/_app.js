@@ -8,8 +8,7 @@ class MyApp extends App {
             <Container>
                 <Page>
                     <Component />
-                </Page>                
-                
+                </Page>                    
             </Container>
         )
     }
