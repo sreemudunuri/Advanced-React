@@ -57,10 +57,10 @@ class Page extends Component {
         return ( 
             <ThemeProvider theme={theme}>
                 <StyledPage>
-                <Meta />
-                <Header />
-                <Inner>{this.props.children}</Inner>
-            </StyledPage> 
+                    <Meta />
+                    <Header />
+                    <Inner>{this.props.children}</Inner>
+                </StyledPage> 
             </ThemeProvider>   
         );
     }
