@@ -2,7 +2,7 @@
 require('dotenv').config({path: 'variables.env'});
 
 //import graphqlyoga server
-const createServer = require('createServer');
+const createServer = require('./createServer');
 
 //import our db
 const db = require('./db');

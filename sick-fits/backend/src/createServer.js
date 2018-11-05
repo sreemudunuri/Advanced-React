@@ -12,11 +12,11 @@ const Query = require('./resolvers/Query');
 const db = require('./db');
 
 // create graphQL yoga server
-fucntion createServer() {
+function createServer() {
     return new GraphQLServer({
         typeDefs: 'src/schema.graphql',
         resolvers: {
-            Muatation,
+            Mutation,
             Query
         },
         resolverValidationOptions: {
@@ -26,7 +26,7 @@ fucntion createServer() {
     });
 };
 
-module.exports.createServer
+module.exports = createServer
 
 
 
