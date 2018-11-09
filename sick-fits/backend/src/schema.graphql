@@ -7,9 +7,15 @@ type Mutation {
         price: Int, 
         image: String, 
         largeImage: String,
-        ): Item!
+        ): Item!,
+    
+    createUser(
+        name: String,
+        email: String,
+    ) : User!
 }
 
 type Query {
-   items: [Item]!
+    items: [Item]!,
+    users: [User]!,
 }
